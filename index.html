@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant Landing Page</title>
+    <title>Tuchon's</title>
     <!--Link to Font Awesome-->
     <link rel="stylesheet" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" />
     <!--Link to Bootstrap-->
@@ -13,8 +13,32 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark text-white fixed-top">
+        <!-- <a class="navbar-brand text-dark" href="#"><img src="./img/logo tuchon.PNG" alt=""></a> -->
+        <h1>-tu.chon</h1>
+        <button type="button bg-danger" aria-expanded="false" class="navbar-toggler" data-toggle="collapse" aria-label="Toggle navigation" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="text-white" href="#home">Home</a> </li>
+                <li class="nav-item"><a class="text-white" href="#home-info">Story</a></li>
+                <li class="nav-item"><a class="text-white" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="text-white" href="#reservations">Reservations</a></li>
+                <li class="nav-item"><a class="text-white" href="#location">Locations</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
     <!-- Jumbotron -->
-    <section class="jumbotron-liquid dungngo-section1">
+    <section id="home" class="jumbotron-liquid dungngo-section1">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -228,7 +252,7 @@
             </div>
         </div>
     </section>
-    <section class="Luke">
+    <section id="menu" class="Luke">
         <div class="container-menu ">
             <div class="container allmenu">
                 <h1 class="text-center menu-title" style="text-decoration: underline;">
@@ -388,52 +412,55 @@
 
         <div class="container-fluid text-white">
 
-            <div class="container ">
-                <div>
-                    <h3 id="location" class="py-4 ">LOCATIONS</h3>
-                </div>
+            <div class="container-fluid text-white  ">
 
-                <div class="row  ">
-                    <div class="col">
-                        <h5 class="footer-heading mb-5">HCM</h5>
-                        <p class="footer-address">12 Ton Dan Street HCM, NY 12345</p>
-                        <p class="footer-phone">123456</p>
-                        <p>Monday-Sunday</p>
-                        <p>10am-10pm</p>
 
-                    </div>
-                    <div class="col">
-                        <h5 class="footer-heading mb-5">QUEENS</h5>
-                        <p class="footer-address">123 Demo Street New York, NY 12345</p>
-                        <p class="footer-phone">123456</p>
-                        <p>Monday-Sunday</p>
-                        <p>10am-10pm</p>
-
-                    </div>
-                    <div class="col">
-                        <h5 class="footer-heading mb-5">FOOD TRUCK
-
-                        </h5>
-                        <p class="footer-address">123 Demo Street New York, NY 12345</p>
-                        <p class="footer-phone">123456</p>
-                        <p>Monday-Sunday</p>
-                        <p>10am-10pm</p>
-
+                <div class="container ">
+                    <div>
+                        <h3 id="location" class="py-4 ">LOCATIONS</h3>
                     </div>
 
-                    <div class="col">
-                        <h5 class="footer-heading mb-5">
-                            <a class="text-white" href=""><i class="fab fa-yelp"></i></a>
-                            <a class="text-white" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="text-white" href=""><i class="fab fa-facebook"></i></a>
-                        </h5>
+                    <div class="row  ">
+                        <div class="col">
+                            <h5 class="footer-heading mb-5">HCM</h5>
+                            <p class="footer-address">12 Ton Dan Street HCM, NY 12345</p>
+                            <p class="footer-phone">123456</p>
+                            <p>Monday-Sunday</p>
+                            <p>10am-10pm</p>
+
+                        </div>
+                        <div class="col">
+                            <h5 class="footer-heading mb-5">QUEENS</h5>
+                            <p class="footer-address">123 Demo Street New York, NY 12345</p>
+                            <p class="footer-phone">123456</p>
+                            <p>Monday-Sunday</p>
+                            <p>10am-10pm</p>
+
+                        </div>
+                        <div class="col">
+                            <h5 class="footer-heading mb-5">FOOD TRUCK
+
+                            </h5>
+                            <p class="footer-address">123 Demo Street New York, NY 12345</p>
+                            <p class="footer-phone">123456</p>
+                            <p>Monday-Sunday</p>
+                            <p>10am-10pm</p>
+
+                        </div>
+
+                        <div class="col">
+                            <h5 class="footer-heading mb-5">
+                                <a class="text-white" href=""><i class="fab fa-yelp"></i></a>
+                                <a class="text-white" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="text-white" href=""><i class="fab fa-facebook"></i></a>
+                            </h5>
 
 
-                        <div>Made by <a href="https://github.com/minhvu29988/RestaurantLandingPage">Group 2</a> </div>
+                            <div>Made by <a href="https://github.com/minhvu29988/RestaurantLandingPage">Group 2</a> </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
 
     <script src="script.js"></script>

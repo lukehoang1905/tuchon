@@ -258,3 +258,11 @@ img.menupic {
 a.genki-list:hover+img {
     display: block;
 }
+
+nav {
+    opacity: 0.8;
+}
+
+footer a {
+    color: pink;
+}
