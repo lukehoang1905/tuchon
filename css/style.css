@@ -2,12 +2,22 @@
     padding: 5%;
 }
 
+.allmenu {
+    border: 1px solid blue;
+}
+
 #luke-photo-jumb {
     padding: 0;
+    width: 100%;
+}
+
+.vat {
+    padding-bottom: 300px;
 }
 
 .pic1 {
-    padding-left: 10%;
+    border: 1px solid green;
+    padding: 0;
     width: 100vmax;
 }
 
