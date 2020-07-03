@@ -1,25 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fontawesome -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Landing Page</title>
+    <!--Link to Font Awesome-->
     <link rel="stylesheet" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" />
-
-    <!-- bootstrap -->
+    <!--Link to Bootstrap-->
     <link rel="stylesheet" crossorigin="anonymous"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" />
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
+    <!-- Jumbotron -->
+    <section class="jumbotron-liquid dungngo-section1">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/03.jpg" style='height:100vh; width:100vw' alt="First slide">
+                    <div class="carousel-caption dungngo-carousel-cap text-right">
+                        <div style='padding-right: 40px'>
+                            <h3 class='display-5' style='margin-bottom:20px; padding:0px;'>Discount in the weekend</h3>
+                            <button class='btn btn-outline-secondary btn-lg dungngo-reservation-button'
+                                style='color:white; font-family:sans-serif;' href='reservation'>Reservation</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/01.jpg" style='height:100vh; width:100vw' alt="Second slide">
+                    <div class="carousel-caption dungngo-carousel-cap text-right">
+                        <div style='padding-right: 40px;'>
+                            <h3 class='display-5' style='margin-bottom:20px; padding:0px'>Dive in Japanese culture</h3>
+                            <button class='btn btn-outline-secondary btn-lg dungngo-reservation-button'
+                                style='color:white; font-family:sans-serif;' href='#reservation'>Reservation</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/02.jpg" style='height:100vh; width:100vw' alt="Third slide">
+                    <div class="carousel-caption dungngo-carousel-cap text-right">
+                        <div style='padding-right: 40px;'>
+                            <h3 class='display-5' style='margin-bottom:20px; padding:0px;'>It's super delicious</h3>
+                            <button class='btn btn-outline-secondary btn-lg dungngo-reservation-button'
+                                style='color:white; font-family:sans-serif;' href="#reservation">Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- Jumbotron -->
+    <div class='container-fluid'>
+        <div class='container d-flex flex-column justify-content-center align-items-center'>
+            <h1 class='text-danger' style='margin: 50px 0px; padding:0px; font-family:san-serif'>ABOUT US</h1>
+
+            <div class='row'>
+                <div class="col-md-6 dungngo-about-box" style='padding:20px 0px; min-height:100%'>
+                    <div class="card d-flex flex-row" style="width:90%; margin:auto;">
+                        <div class='col-md-4' style='padding:0px; margin:0px 10px'>
+                            <img class="card-img-top" src="img/02.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 card-body" style='padding:5px; margin:5px'>
+                            <h3 class="card-title text-center" style='padding-bottom:20px;'>Dung Ngo</h3>
+                            <p class="card-text" style='padding-top:20px'>Some quick example text to build on the card
+                                title
+                                and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style='padding:20px 0px;'>
+                    <div class="card d-flex flex-row" style="width:90%; margin:auto;">
+                        <div class='col-md-4' style='padding:0px; margin:0px 10px'>
+                            <img class="card-img-top" src="img/02.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 card-body" style='padding:5px; margin:5px'>
+                            <h3 class="card-title text-center" style='padding-bottom:20px;'>Dung Ngo</h3>
+                            <p class="card-text" style='padding-top:20px'>Some quick example text to build on the card
+                                title
+                                and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class="col-md-6" style='padding:20px 0px;'>
+                    <div class="card d-flex flex-row" style="width:90%; margin:auto;">
+                        <div class='col-md-4' style='padding:0px; margin:0px 10px'>
+                            <img class="card-img-top" src="img/02.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 card-body" style='padding:5px; margin:5px'>
+                            <h3 class="card-title text-center" style='padding-bottom:20px;'>Dung Ngo</h3>
+                            <p class="card-text" style='padding-top:20px'>Some quick example text to build on the card
+                                title
+                                and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style='padding:20px 0px;'>
+                    <div class="card d-flex flex-row" style="width:90%; margin:auto;">
+                        <div class='col-md-4' style='padding:0px; margin:0px 10px'>
+                            <img class="card-img-top" src="img/02.jpg" alt="Card image cap">
+                        </div>
+                        <div class="col-md-8 card-body" style='padding:5px; margin:5px'>
+                            <h3 class="card-title text-center" style='padding-bottom:20px;'>Dung Ngo</h3>
+                            <p class="card-text" style='padding-top:20px'>Some quick example text to build on the card
+                                title
+                                and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <h1>Foodholic</h1>
     <!-- Minh | about -->
     <header>
@@ -188,7 +300,8 @@
                                     </div>
                                     <p class="mb-1">3 types of today fishes</p>
                                     <small class="text-muted">
-                                        <2ppx </small> </a> <img class="menupic" src="/img/mini.jpg" />
+                                        <2ppx </small>
+                                </a> <img class="menupic" src="/img/mini.jpg" />
 
                             </div>
                         </div>
@@ -235,67 +348,27 @@
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">Soft Drink</h5>
                                         <small class="text-muted">
-                                            <10ppx </small> </div> <p class="mb-1">Soft drink choices</p>
+                                            <10ppx </small>
+                                    </div>
+                                    <p class="mb-1">Soft drink choices</p>
                                 </a>
                                 <img class="menupic" src="/img/soft drink.png" />
 
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-                <p class="vat">*price is VAT non-inclusicve</p>
-            </div>
 
 
-        </div>
-        <div class="jumbotron jumbotron-fluid" id="luke-photo-jumb">
-            <img src="https://kulha.cdn.setuix.net/assets/containers/main/dining/1-1560419686.png/110fa8c1b3747dba026dfb60c4a815bb.png"
-                alt="sushi platter" class="pic1" />
-        </div>
-        </div>
-
-    </section>
-
-    <section id="reservations">
-        <div class="container">
-            <form class="mx-auto">
-                <div class="form-group p-5 ">
-                    <h1 class="reservations-title mb-5">MAKE A RESERVATION</h1>
-                    <div class="form-row">
-                        <select class="form-control" id="sel1">
-                            <option>2 people</option>
-                            <option>3 people</option>
-                            <option>4 people</option>
-                            <option>5 people</option>
-                            <option>6 people</option>
-                            <option>7 people</option>
-                            <option>8 people</option>
-                            <option>9 people</option>
-                            <option>10 people</option>
-                            <option>+10 people</option>
-                        </select>
-                    </div>
-                    <br>
-                    <div class="form-row">
-                        <input class="form-control" type="text" placeholder="July 2, 2020"><br>
-                    </div><br>
-                    <div class="form-row">
-                        <input class="form-control" type="text" placeholder="7:00 PM"><br>
-                    </div><br>
-                    <div class="form-row">
-                        <button class="btn bg-dark text-white form-control">Find a table</button>
-                    </div>
-
-                </div>
-            </form>
-
-        </div>
-
-
-
-    </section>
-
+                            <script src="script.js"></script>
+                            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                                crossorigin="anonymous">
+                                </script>
+                            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                                crossorigin="anonymous">
+                                </script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                                crossorigin="anonymous"></script>
 </body>
 
 </html>
