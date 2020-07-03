@@ -7,6 +7,7 @@
 nav,
 footer {
   background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 #reservations div form {
@@ -16,9 +17,11 @@ footer {
 
 .reservations-title {
   font-size: 30px;
+  font-size: 30px;
 }
 
 /*  */
+
 body {
   margin: 0px;
   padding: 0px;
@@ -247,4 +250,12 @@ img.menupic {
 
 a.genki-list:hover + img {
   display: block;
+}
+
+nav {
+  opacity: 0.8;
+}
+
+footer a {
+  color: pink;
 }
