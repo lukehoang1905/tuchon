@@ -1,4 +1,4 @@
-    body {
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -36,7 +36,6 @@
 
 /* Main Styling is applied to all the pages' common, main elements */
 
-html,
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
@@ -204,7 +203,7 @@ p {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
+
 /* Footer Styling is used once per page (index.html) */
 
 #main-footer {
@@ -214,27 +213,13 @@ p {
     padding: 20px;
 }
 
-=======>>>>>>>1a42ec7c64a9cfaefea6a68b4132117a6e25035d .container-menu {
+.container-menu {
     padding: 5%;
-}
-
-.allmenu {
-    border: 1px solid blue;
 }
 
 #luke-photo-jumb {
     padding: 0;
     width: 100%;
-}
-
-.vat {
-    padding-bottom: 300px;
-}
-
-.pic1 {
-    border: 1px solid green;
-    padding: 0;
-    width: 100vmax;
 }
 
 .menu-title {
@@ -247,9 +232,6 @@ img.menupic {
     max-width: 320px;
 }
 
-<<<<<<< HEAD a.genki-list:hover+img {
+a.genki-list:hover+img {
     display: block;
-    =======a.genki-list:hover+img {
-        display: block;
-        >>>>>>>1a42ec7c64a9cfaefea6a68b4132117a6e25035d
-    }
+}
