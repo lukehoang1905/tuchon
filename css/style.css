@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
   margin: 0px;
   padding: 0px;
@@ -23,9 +22,46 @@ body{
   color: white;
   font-family: sans-serif;
 }
+
+.dungngo-infolinks{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.dungngo-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dungngo-links-fb:hover{
+  color: blue;
+}
+
+.dungngo-links-tw:hover{
+  color: rgb(69, 174, 235);
+}
+
+.dungngo-links-gl:hover{
+  color: rgb(211, 46, 46);
+}
+
+.dungngo-image-center{
+  position: absolute;
+  padding: 50px;
+  background-image: url(/img/02.jpg);
+  background-size: 100% 100%;
+  transition: transform .2s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.dungngo-image-center:hover {
+  transform: scale(1.2);
+}
+
 /* Reset the pages to their original state */
-=======
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
 * {
   margin: 0;
   padding: 0;
@@ -182,7 +218,6 @@ p {
 .box i {
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
 
 /* Footer Styling is used once per page (index.html) */
 #main-footer {
@@ -191,8 +226,6 @@ p {
   color: #fff;
   padding: 20px;
 }
-=======
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
 .container-menu {
   padding: 5%;
 }
@@ -226,11 +259,10 @@ img.menupic {
   max-width: 320px;
 }
 
-<<<<<<< HEAD
 a.genki-list:hover+img {
     display: block;
-=======
+}
+
 a.genki-list:hover + img {
   display: block;
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
 }
