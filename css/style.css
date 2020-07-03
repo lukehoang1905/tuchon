@@ -1,236 +1,255 @@
-<<<<<<< HEAD
-body{
-  margin: 0px;
-  padding: 0px;
+    body {
+    margin: 0px;
+    padding: 0px;
 }
 
-.dungngo-section1{
-  padding: 0px;
-  margin: 0px;
+.dungngo-section1 {
+    padding: 0px;
+    margin: 0px;
 }
 
-.dungngo-carousel-cap{
-  position: absolute;
-  left: 0px;
-  width: 100vw;
-  margin-bottom: 60px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.dungngo-carousel-cap {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    margin-bottom: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.dungngo-reservation-button{
-  color: white;
-  font-family: sans-serif;
+.dungngo-reservation-button {
+    color: white;
+    font-family: sans-serif;
 }
+
+
 /* Reset the pages to their original state */
-=======
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* prevent padding from being added to a box's actual width */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* prevent padding from being added to a box's actual width */
 }
+
 
 /* Main Styling is applied to all the pages' common, main elements */
+
 html,
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
 }
 
 a {
-  color: #333;
-  text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 
 h1,
 h2,
 h3 {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 p {
-  margin: 10px 0; /* top & bottom | left & right */
+    margin: 10px 0;
+    /* top & bottom | left & right */
 }
 
+
 /* Utility classes are reused widely throughout the site, not specific to any particular area */
+
 .container {
-  margin: auto;
-  max-width: 1100px;
-  overflow: auto;
-  padding: 0 20px;
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
 }
 
 .text-primary {
-  color: #f7c08a;
+    color: #f7c08a;
 }
 
 .lead {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .btn {
-  display: inline-block;
-  font-size: 18px;
-  color: #fff;
-  background: #333;
-  padding: 13px 20px;
-  border: none; /* no border on any browser. As buttons have borders by default, links don't */
-  cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    /* no border on any browser. As buttons have borders by default, links don't */
+    cursor: pointer;
 }
 
 .btn:hover {
-  background: #f7c08a;
-  color: #333;
+    background: #f7c08a;
+    color: #333;
 }
 
 .btn-light {
-  background: #f4f4f4;
-  color: #333;
+    background: #f4f4f4;
+    color: #333;
 }
 
 .bg-dark {
-  background: #333;
-  color: #fff;
+    background: #333;
+    color: #fff;
 }
 
 .bg-light {
-  background: #f4f4f4;
-  color: #333;
+    background: #f4f4f4;
+    color: #333;
 }
 
 .bg-primary {
-  color: #333;
-  background: #f7c08a;
+    color: #333;
+    background: #f7c08a;
 }
 
 .clr {
-  clear: both; /* clear the floating features */
+    clear: both;
+    /* clear the floating features */
 }
 
 .l-heading {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 
 /* Utility classes for padding (py means padding y-axis or padding's top & bottom values) */
+
 .py-1 {
-  padding: 10px 0;
-}
-.py-2 {
-  padding: 20px 0;
-}
-.py-3 {
-  padding: 30px 0;
+    padding: 10px 0;
 }
 
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
 /* Showcase Styling (index.html) */
+
 #showcase {
-  background: url("../img/oldtown-exteriordusk-TT.jpg") no-repeat center center/cover;
-  height: 600px;
+    background: url("../img/oldtown-exteriordusk-TT.jpg") no-repeat center center/cover;
+    height: 600px;
 }
 
 #showcase .showcase-content {
-  color: #fff;
-  text-align: center;
-  padding-top: 170px;
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
 }
 
 #showcase .showcase-content h1 {
-  font-size: 60px;
-  line-height: 1.2em;
+    font-size: 60px;
+    line-height: 1.2em;
 }
 
 #showcase .showcase-content p {
-  padding-bottom: 20px;
-  line-height: 1.7em;
+    padding-bottom: 20px;
+    line-height: 1.7em;
 }
 
+
 /* Home Info (index.html) */
+
 #home-info {
-  height: 400px;
+    height: 400px;
 }
 
 #home-info .info-img {
-  float: left;
-  width: 50%;
-  background: url("../img/DSC_4987.jpg") no-repeat center center/cover;
-  min-height: 100%; /* for the image to take up the whole space */
+    float: left;
+    width: 50%;
+    background: url("../img/DSC_4987.jpg") no-repeat center center/cover;
+    min-height: 100%;
+    /* for the image to take up the whole space */
 }
 
 #home-info .info-content {
-  float: right;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  padding: 50px 30px;
-  overflow: hidden; /* if anything goes outside of info-content, there's no scroll bar then */
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    /* if anything goes outside of info-content, there's no scroll bar then */
 }
 
 #home-info .info-content p {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
+
 /* Features Styling (index.html) */
+
 .box {
-  float: left;
-  width: 33.3%;
-  padding: 50px; /* due to border-box, the padding isn't added to the width */
-  text-align: center;
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    /* due to border-box, the padding isn't added to the width */
+    text-align: center;
 }
 
 .box i {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 /* Footer Styling is used once per page (index.html) */
+
 #main-footer {
-  text-align: center;
-  background: #444;
-  color: #fff;
-  padding: 20px;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
-=======
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
-.container-menu {
-  padding: 5%;
+
+=======>>>>>>>1a42ec7c64a9cfaefea6a68b4132117a6e25035d .container-menu {
+    padding: 5%;
 }
 
 .allmenu {
-  border: 1px solid blue;
+    border: 1px solid blue;
 }
 
 #luke-photo-jumb {
-  padding: 0;
-  width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
 .vat {
-  padding-bottom: 300px;
+    padding-bottom: 300px;
 }
 
 .pic1 {
-  border: 1px solid green;
-  padding: 0;
-  width: 100vmax;
+    border: 1px solid green;
+    padding: 0;
+    width: 100vmax;
 }
 
 .menu-title {
-  padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 img.menupic {
-  display: none;
-  max-height: 280px;
-  max-width: 320px;
+    display: none;
+    max-height: 280px;
+    max-width: 320px;
 }
 
-<<<<<<< HEAD
-a.genki-list:hover+img {
+<<<<<<< HEAD a.genki-list:hover+img {
     display: block;
-=======
-a.genki-list:hover + img {
-  display: block;
->>>>>>> 1a42ec7c64a9cfaefea6a68b4132117a6e25035d
-}
+    =======a.genki-list:hover+img {
+        display: block;
+        >>>>>>>1a42ec7c64a9cfaefea6a68b4132117a6e25035d
+    }
