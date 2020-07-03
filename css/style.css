@@ -31,12 +31,17 @@ body {
 
 .dungngo-infolinks{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 60%;
 }
 
 .dungngo-card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+.dungngo-card:hover{
+  transform: scale(1.1);
 }
 
 .dungngo-links-fb:hover{
@@ -51,15 +56,21 @@ body {
   color: rgb(211, 46, 46);
 }
 
+.dungngo-cardbody{
+  margin-top: -20px;
+  margin-bottom: 30%;
+}
+
 .dungngo-image-center{
-  position: absolute;
+  position: relative;
   padding: 50px;
+  left: 30%;
+  top: -10%;
   background-image: url(/img/02.jpg);
   background-size: 100% 100%;
   transition: transform .2s; /* Animation */
   width: 10px;
   height: 10px;
-  margin: 0 auto;
   border-radius: 100px;
 }
 
