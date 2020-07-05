@@ -1,5 +1,8 @@
+body{
+  margin: 0px;
+  padding: 0px;
 /* nav */
-
+}
 .nav-item {
   margin-right: 15px;
 }
@@ -20,13 +23,69 @@ footer {
   font-size: 30px;
 }
 
-/*  */
-
 body {
   margin: 0px;
   padding: 0px;
 }
 
+.dungngo-infolinks{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.dungngo-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dungngo-card:hover{
+  transform: scale(1.1);
+}
+
+.dungngo-links-fb:hover{
+  color: blue;
+}
+
+.dungngo-links-tw:hover{
+  color: rgb(69, 174, 235);
+}
+
+.dungngo-links-gl:hover{
+  color: rgb(211, 46, 46);
+}
+
+.dungngo-cardbody{
+  position: relative;
+  bottom: 1%;
+  top: -7%;
+  width: 100%;
+  height: 200px;
+}
+
+.dungngo-image-center{
+  position: relative;
+  margin: auto;
+  margin: 0px;
+  top: -10%;
+  background-image: url(/img/02.jpg);
+  background-size: 100% 100%;
+  transition: transform .2s; /* Animation */
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.dungngo-image-center:hover {
+  transform: scale(1.2);
+}
+
+/* Reset the pages to their original state */
 .dungngo-section1 {
   padding: 0px;
   margin: 0px;
@@ -47,215 +106,50 @@ body {
   font-family: sans-serif;
 }
 
-/* Reset the pages to their original state */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* prevent padding from being added to a box's actual width */
+.dungngo-section2{
+  margin: 50px 0px;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Main Styling is applied to all the pages' common, main elements */
-
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7em;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3 {
-  padding-bottom: 20px;
-}
-
-p {
-  margin: 10px 0;
-  /* top & bottom | left & right */
-}
-
-/* Utility classes are reused widely throughout the site, not specific to any particular area */
-
-.container {
-  margin: auto;
-  max-width: 1100px;
-  overflow: auto;
-  padding: 0 20px;
-}
-
-.text-primary {
-  color: #f7c08a;
-}
-
-.lead {
-  font-size: 20px;
-}
-
-.btn {
-  display: inline-block;
-  font-size: 18px;
-  color: #fff;
-  background: #333;
-  padding: 13px 20px;
-  border: none;
-  /* no border on any browser. As buttons have borders by default, links don't */
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: #f7c08a;
-  color: #333;
-}
-
-.btn-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-dark {
-  background: #333;
-  color: #fff;
-}
-
-.bg-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-primary {
-  color: #333;
-  background: #f7c08a;
-}
-
-.clr {
-  clear: both;
-  /* clear the floating features */
-}
-
-.l-heading {
-  font-size: 40px;
-}
-
-/* Utility classes for padding (py means padding y-axis or padding's top & bottom values) */
-
-.py-1 {
-  padding: 10px 0;
-}
-
-.py-2 {
-  padding: 20px 0;
-}
-
-.py-3 {
-  padding: 30px 0;
-}
-
-/* Showcase Styling (index.html) */
-
-#showcase {
-  background: url("../img/oldtown-exteriordusk-TT.jpg") no-repeat center center/cover;
-  height: 600px;
-}
-
-#showcase .showcase-content {
-  color: #fff;
-  text-align: center;
-  padding-top: 200px;
-}
-
-#showcase .showcase-content h1 {
-  font-size: 60px;
-  line-height: 1.2em;
-}
-
-#showcase .showcase-content p {
-  padding-bottom: 20px;
-  line-height: 1.7em;
-}
-
-/* Home Info (index.html) */
-
-#home-info {
-  height: 400px;
-}
-
-#home-info .info-img {
-  float: left;
-  width: 50%;
-  background: url("../img/DSC_4987.jpg") no-repeat center center/cover;
-  min-height: 100%;
-  /* for the image to take up the whole space */
-}
-
-#home-info .info-content {
-  float: right;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  padding: 50px 30px;
-  overflow: hidden;
-  /* if anything goes outside of info-content, there's no scroll bar then */
-}
-
-#home-info .info-content p {
-  padding-bottom: 30px;
-}
-
-/* Features Styling (index.html) */
-
-.box {
-  float: left;
-  width: 33.3%;
-  padding: 50px;
-  /* due to border-box, the padding isn't added to the width */
-  text-align: center;
-}
-
-.box i {
-  margin-bottom: 10px;
-}
-
-/* Footer Styling is used once per page (index.html) */
-
-#main-footer {
-  text-align: center;
-  background: #444;
-  color: #fff;
-  padding: 20px;
-}
-
-.container-menu {
-  padding: 5%;
-}
-
-#luke-photo-jumb {
-  padding: 0;
+.dn-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(transparent,grey);
   width: 100%;
+  height: 0;
+  color: transparent;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.menu-title {
-  padding-bottom: 5%;
+.dungngo-card:hover .dn-overlay{
+  height: 30%;
 }
 
-img.menupic {
-  display: none;
-  max-height: 280px;
-  max-width: 320px;
+.dungngo-card:hover .dn-footer-text{
+  color: black;
+}
+.dungngo-card:hover .blockquote-footer{
+  color: rgb(104, 101, 101);
 }
 
-a.genki-list:hover + img {
-  display: block;
+.dn-footer-text{
+  color: transparent;
+  transition: 0.5s ease;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10px;
 }
 
-nav {
-  opacity: 0.8;
-}
-
-footer a {
-  color: pink;
+.blockquote-footer{
+  color: transparent;
+  background-color: transparent;
 }
